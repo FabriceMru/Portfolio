@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+  font-family: "Jost", sans-serif;
+  --primary-color: #d7bc85;
+  --secondary-color: #e7e3ce;
+  --third-color: #614d24;
+  --fourth-color: beige;
+  --fifth-color: #000000;
+  --sixth-color: grey;
+}
+/* VARIABLES======================================== */
+/* =================Reset and Fonts====================== */
+body {
+  background: #eee4ce;
+}
+
+h1 {
+  color: grey;
+  text-align: center;
+  margin: 1rem;
+  font-size: 2.5rem;
+}
+
+form {
+  background: #eee4ce;
+  padding: 20px;
+  margin-top: 20px;
+  border: 1px solid #ddd;
+}
+
+fieldset {
+  border: none;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 10px;
+  max-width: 33%;
+  margin: 0 auto;
+}
+
+legend {
+  color: var(--fifth-color);
+  font-size: 1.5em;
+  margin-bottom: 5px;
+  font-weight: bold;
+  text-align: center;
+}
+
+label {
+  display: block;
+  display: inline-block;
+  cursor: pointer;
+  margin: 0.5rem;
+  font-size: 1.5rem;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+textarea,
+select {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+textarea {
+  resize: vertical;
+  font-family: "Jost", sans-serif;
+}
+
+input[type="submit"] {
+  display: flex;
+  background: var(--third-color);
+  color: white;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 1.5rem;
+  margin: auto;
+}
+
+input[type="submit"]:hover {
+  background: var(--primary-color);
+}
+/* ========= Bild spiegelung=================0 */
+.bubbles-left {
+  position: absolute;
+  top: 200px;
+  left: 200px;
+  width: 300px;
+  -webkit-box-reflect: below 0px
+    linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4));
+}
+
+.bubbles-right {
+  position: absolute;
+  top: 200px;
+  right: 200px;
+  width: 300px;
+  -webkit-box-reflect: below 0px
+    linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4));
+}
+.upload {
+  color: var(--third-color);
+}
+
+input[type="file"]::file-selector-button {
+  border-radius: 4px;
+  padding: 0 16px;
+  height: 40px;
+  cursor: pointer;
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.16);
+  box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.05);
+  margin-right: 16px;
+  /* transition: background-color 200ms; */
+}
+
+input[type="file"]::file-selector-button:active {
+  background-color: #e5e7eb;
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/contact.css">
+    <title>Contact</title>
+</head>
+<body>
+    <h1>Contact Form</h1>
+    <form
+        action="mailto:fabrice.nadal@outlook.de"
+        method="POST"
+        target="_blank">
+        <fieldset>
+        <legend>Please Fill out the form in order to get in touch with me</legend>
+        <label for="first-name">First Name</label>
+        <input type="text" id="firstname" name="firstname" maxlength="30" placeholder="First Name" required/>
+        <div>
+            <label for="lastname">Last Name</label>
+            <input
+            type="text"
+            id="lastname"
+            name="lastname"
+            maxlength="30"
+            placeholder="Last Name"
+            required
+            /><br />
+        </div>
+
+        <label for="company">Company Name</label>
+        <input type="text" id="company" name="company" placeholder="Company Name" required /><br />
+
+        <label for="city">City</label>
+        <input type="text" id="city" name="city" maxlength="30" placeholder="Berlin, Malaga, Barcelona..." /><br />
+
+        <label for="phone">Phone Number</label>
+        <input
+            placeholder="49172**********"
+            type="tel"
+            id="phone"
+            name="phone"
+            pattern="[0-9]{10}"
+            title="Twenty digit phone number, no dashes or spaces"
+            required
+        /><br />
+
+        <label for="email">E-Mail</label>
+        <input type="email" id="email" name="email" maxlength="30" placeholder="E-Mail"/><br />
+
+        <label for="comments">Some information's regarding the Job offer</label>
+        <textarea id="comments" name="comments" rows="4" cols="50">
+        </textarea
+        ><br />
+        </fieldset>
+
+        <fieldset>
+        <div>
+            <form action="mailto:fabrice.nadal@outlook.de">
+            <input class="upload" type="file" id="myFile" name="filename">
+            </form>
+        <legend>Upload you Offer here</legend>
+        <label for="project-start">Earliest Start Date (optional)</label>
+        <input
+            type="date"
+            id="project-start"
+            name="project-start"/><br /> 
+        <label for="category">Category (optional)</label>
+        <select id="category" name="category">
+            <option value="">Please select</option>
+            <option value="personal">Personal</option>
+            <option value="business">Business</option>
+            <option value="gouvernment">Gouvernment</option>
+            <option value="other">Other</option></select
+        ><br />
+        <input type="submit" value="Submit" />
+        </fieldset>
+    </form>
+    <div>
+        <img class="bubbles-left" src="/Images/bubbles.png" alt="Bubbles">
+        <img class="bubbles-right" src="/Images/bubbles.png" alt="Bubbles">
+    </div>
+</body>
+</html>
