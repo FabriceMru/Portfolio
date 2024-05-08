@@ -38,7 +38,7 @@ a {
 }
 
 .nav-header {
-  position: fixed;
+  /* position: fixed; */
   z-index: 100;
   display: inline-flex;
   justify-content: center;
@@ -205,6 +205,11 @@ a:hover {
   z-index: 0;
 }
 
+.calendly {
+  position: absolute;
+  top: 0;
+}
+
 .deco02 {
   position: absolute;
   bottom: 187px;
@@ -285,6 +290,18 @@ a:hover {
   z-index: 1;
   border-radius: 0px 20px 20px 0px;
   rotate: 90deg;
+}
+
+.deco09 {
+  position: absolute;
+  width: 240px;
+  height: 400px;
+  right: 380px;
+  bottom: 0;
+  z-index: 1;
+  box-shadow: 7px 8px 15px 5px #614d24;
+  border-radius: 40px;
+  border: 2px ridge --fourth-color;
 }
 
 @media only screen and (max-width: 414px) {

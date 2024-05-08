@@ -19,16 +19,16 @@
 /* ===============RESET ROOT VARS==================== */
 
 body {
-  background-color: var(--primary-color);
+  background: #eee4ce;
   /* display: flex; */
-  margin: 70px;
-  padding: -50px;
+  margin: 60px;
+  padding: -30px;
 }
 
 h1 {
   font-size: 4rem;
   text-align: center;
-  margin: 1rem;
+  margin-bottom: 3rem;
   text-shadow: 10px 5px 10px grey;
 }
 
@@ -59,7 +59,7 @@ p {
 }
 /* BOX ONE ====================== */
 .iam {
-  width: 400px;
+  width: 350px;
   border: 2px solid #614d24;
   padding: 8px;
   border-radius: 5px;
@@ -72,7 +72,7 @@ p {
 }
 
 .profile {
-  width: 365px;
+  width: 330px;
   height: 350px;
   border-top: 2px solid black;
   border-bottom: 2px solid black;
@@ -81,7 +81,7 @@ p {
 /* BOX TWO ====================== */
 
 .ido {
-  width: 400px;
+  width: 350px;
   border: 2px solid #614d24;
   padding: 8px;
   border-radius: 5px;
@@ -91,14 +91,14 @@ p {
 }
 
 .animated {
-  width: 380px;
+  width: 330px;
   height: 350px;
   border-radius: 3px;
 }
 /* BOX THREE ====================== */
 
 .doit {
-  width: 400px;
+  width: 350px;
   border: 2px solid #614d24;
   padding: 8px;
   border-radius: 5px;
@@ -107,14 +107,14 @@ p {
   box-shadow: 10px 5px 10px grey;
 }
 .laptop {
-  width: 380px;
+  width: 330px;
   height: 350px;
   border-radius: 3px;
 }
 /* BOX FOUR ====================== */
 
 .connect {
-  width: 400px;
+  width: 350px;
   border: 2px solid #614d24;
   padding: 8px;
   border-radius: 5px;
@@ -124,9 +124,16 @@ p {
 }
 
 .calendar {
-  width: 380px;
+  width: 330px;
   height: 350px;
   border-radius: 3px;
   border-top: 2px solid black;
   border-bottom: 2px solid black;
+}
+
+.qrcode {
+  display: flex;
+  width: 120px;
+  height: 200px;
+  margin: auto;
 }
