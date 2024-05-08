@@ -17,8 +17,7 @@
   --sixth-color: grey;
 }
 
-/* VARIABLES======================================== */
---
+/* VARIABLES============================================= */
 /* =================Reset and Fonts====================== */
 
 body {
@@ -33,12 +32,14 @@ body {
 a {
   display: flex;
   justify-content: center;
-  width: 99%;
+  width: 100%;
   margin: 1rem 1rem 1rem 1rem;
   text-decoration: none;
 }
 
 .nav-header {
+  position: fixed;
+  z-index: 100;
   display: inline-flex;
   justify-content: center;
   background-color: #e7e3ce;
@@ -285,7 +286,6 @@ a:hover {
   border-radius: 0px 20px 20px 0px;
   rotate: 90deg;
 }
-
 
 @media only screen and (max-width: 414px) {
 }

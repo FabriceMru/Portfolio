@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+  font-family: "Jost", sans-serif;
+  --primary-color: #d7bc85;
+  --secondary-color: #e7e3ce;
+  --third-color: #614d24;
+  --fourth-color: beige;
+  --fifth-color: #000000;
+  --sixth-color: grey;
+}
+/* ===============RESET ROOT VARS==================== */
+
+body {
+  background-color: var(--primary-color);
+  /* display: flex; */
+  margin: 70px;
+  padding: -50px;
+}
+
+h1 {
+  font-size: 4rem;
+  text-align: center;
+  margin: 1rem;
+  text-shadow: 10px 5px 10px grey;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 0.2rem;
+  text-decoration: underline;
+  margin: 1rem;
+  text-shadow: 10px 5px 10px grey;
+}
+
+p {
+  font-size: 2rem;
+  font-weight: 300;
+  padding: 1rem;
+}
+
+.container {
+  display: flex;
+  /* grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px; */
+  border: 5px ridge var(--third-color);
+  position: relative;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+/* BOX ONE ====================== */
+.iam {
+  width: 400px;
+  border: 2px solid #614d24;
+  padding: 8px;
+  border-radius: 5px;
+  text-align: justify;
+  position: relative;
+  box-shadow: 10px 5px 10px grey;
+}
+
+.iam:hover {
+}
+
+.profile {
+  width: 365px;
+  height: 350px;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  border-radius: 3px;
+}
+/* BOX TWO ====================== */
+
+.ido {
+  width: 400px;
+  border: 2px solid #614d24;
+  padding: 8px;
+  border-radius: 5px;
+  text-align: justify;
+  position: relative;
+  box-shadow: 10px 5px 10px grey;
+}
+
+.animated {
+  width: 380px;
+  height: 350px;
+  border-radius: 3px;
+}
+/* BOX THREE ====================== */
+
+.doit {
+  width: 400px;
+  border: 2px solid #614d24;
+  padding: 8px;
+  border-radius: 5px;
+  text-align: justify;
+  position: relative;
+  box-shadow: 10px 5px 10px grey;
+}
+.laptop {
+  width: 380px;
+  height: 350px;
+  border-radius: 3px;
+}
+/* BOX FOUR ====================== */
+
+.connect {
+  width: 400px;
+  border: 2px solid #614d24;
+  padding: 8px;
+  border-radius: 5px;
+  text-align: justify;
+  position: relative;
+  box-shadow: 10px 5px 10px grey;
+}
+
+.calendar {
+  width: 380px;
+  height: 350px;
+  border-radius: 3px;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
