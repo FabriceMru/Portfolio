@@ -1,0 +1,70 @@
+:root {
+  --orange: rgb(239, 108, 0);
+  --darkorange: rgb(191, 54, 12);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat Alternates", sans-serif;
+  font-size: 0.6rem;
+  font-weight: 500;
+}
+/* Font */
+
+body {
+  background-image: url(/Shiny-Octo/Images/solar-eclipse-1482921_1920.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgb(10, 10, 10);
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1 {
+  color: aliceblue;
+  font-size: 8rem;
+  text-align: center;
+  padding-bottom: 10rem;
+  text-shadow: 2px 3px 6px rgba(226, 124, 66, 0.82);
+}
+
+.link {
+  border-top: 1px solid rgb(255, 255, 255, 0.5);
+  border-bottom: 1px solid rgb(255, 255, 255, 0.5);
+  text-shadow: 4px 6px 9px rgba(226, 124, 66, 0.82);
+  color: antiquewhite;
+  display: block;
+
+  font-size: clamp(2em, 8vw, 7em);
+  padding: clamp(0.25em, 1vw, 1em) clamp(1em, 4vw, 4em);
+  position: relative;
+  text-decoration: none;
+}
+
+.link:hover:before {
+  transition: 800ms ease;
+  width: 100%;
+}
+
+.link:before {
+  background: linear-gradient(
+    to right,
+    transparent,
+    var(--orange),
+    var(--darkorange)
+  );
+
+  content: "";
+  left: 0px;
+  top: 0px;
+  height: 100%;
+  width: 0%;
+  position: absolute;
+}
+.link:nth-child(3) {
+  border-bottom: 1px solid rgb(255, 255, 255, 0.5);
+}

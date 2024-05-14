@@ -1,0 +1,42 @@
+:root {
+  font-size: 62.5%;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Bilbo", cursive;
+  font-weight: 500;
+  overflow: hidden;
+  gap: 10px;
+}
+
+body {
+  background-image: url(/Shiny-Octo/Images/Peter/constantino-co-7VHb2vO2r18-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgb(10, 10, 10);
+  height: 100vh;
+  width: 100vw;
+}
+/* ------------Reset------------------------------------------------------- */
+h1 {
+  font-size: 12rem;
+  text-align: center;
+  padding-top: 5rem;
+  color: antiquewhite;
+  text-shadow: 4px 6px 9px rgba(0, 0, 0, 0.82);
+}
+h2 {
+  text-align: center;
+  font-size: 4rem;
+  color: antiquewhite;
+}
+
+/* ! GRID CSS */
+.character-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(1fr);
+}

@@ -43,7 +43,7 @@ First Version README:
 This is my first real Project - My Portfolio
 
 First Steps:
-1. Think about a Idea for a Project.
+1. Think about a Idea for a Project. Used Pen and Paper here. No Bootstrap and only try to use CSS and HTML - later SCSS/SASS
 2. Found an Idea to create a Landing Page like a Board or a something similar
 3. Choose some colors that I like
    
