@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap");
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  font-family: "Titillium Web", sans-serif;
+  font-size: 6rem;
+  width: 100%;
+  height: 100%;
+}
+/* =========================RESET ROOT===================== */
+
+.container {
+  background: linear-gradient(135deg, #900 0%, #300 100%);
+  color: #fff;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  transition: all 250ms ease;
+  cursor: pointer;
+}
+
+.level {
+  display: flex;
+  color: #300;
+  /* animation: discover 2s linear infinite; */
+}
+
+.discover {
+  position: relative;
+  top: -400px;
+  left: -100px;
+  animation: discover 2s linear infinite;
+}
+
+.the {
+  position: relative;
+  top: -358px;
+  left: -142px;
+  animation: discover 4s linear infinite;
+}
+
+.power {
+  position: relative;
+  top: -320px;
+  left: -155px;
+
+  animation: discover 2s linear infinite;
+}
+
+.of {
+  position: relative;
+  top: -280px;
+  left: -180px;
+  animation: discover 4s linear infinite;
+}
+
+.advanced {
+  position: relative;
+  top: -240px;
+  left: -247px;
+  color: #300;
+
+  animation: discover 2s linear infinite;
+}
+
+.web {
+  position: relative;
+  top: -150px;
+  right: -100px;
+  /* animation: discover 2s linear reverse; */
+}
+
+.design {
+  position: relative;
+  top: -110px;
+  right: -50px;
+  /* animation: discover 5s cubic-bezier(0.14, 0.28, 0.67, -0.77); */
+}
+
+.and {
+  position: relative;
+  top: -50px;
+  right: 500px;
+  /* color: goldenrod; */
+  /* animation: discover 5s cubic-bezier(0.14, 0.28, 0.67, -0.77) infinite; */
+}
+/* .and:hover {
+  box-shadow: inset 10px 10px 10px 1rem #300;
+  border-radius: 20px;
+  transform: rotateX(90deg);
+  animation: box 5s cubic-bezier(0.14, 0.28, 0.67, -0.77) infinite;
+} */
+
+.web2 {
+  position: relative;
+  top: 200px;
+  right: 400px;
+  /* animation: discover 5s cubic-bezier(0.95, 0.04, 0.95, 0.9) infinite; */
+}
+
+.development {
+  position: relative;
+  top: 240px;
+  right: 552px;
+  /* color: #1a1616; */
+  /* animation: discover 5s cubic-bezier(0.95, 0.04, 0.95, 0.06) infinite; */
+}
+
+/* KEYFRAMES ==================================0000000======= */
+
+@keyframes discover {
+  0% {
+    color: #300;
+    text-shadow: none;
+  }
+  90% {
+    color: #300;
+    text-shadow: none;
+  }
+  100% {
+    color: goldenrod;
+    text-shadow: 0rem 5rem 15rem rgb(235, 14, 235), 0rem 5rem 10rem #87a10f;
+  }
+}
+
+/* !ANIMATION TIMING and COLORS in ms oder s */
+
+.discover:nth-child(1) {
+  animation-delay: 100ms;
+}
+.the:nth-child(2) {
+  animation-delay: 200ms;
+}
+.power:nth-child(3) {
+  animation-delay: 300ms;
+}
+.of:nth-child(4) {
+  animation-delay: 400ms;
+}
+.advanced:nth-child(5) {
+  animation-delay: 500ms;
+}
+.child:nth-child(6) {
+  animation-delay: 200ms;
+}
+.child:nth-child(7) {
+  animation-delay: 600ms;
+}
+.child:nth-child(8) {
+  animation-delay: 700ms;
+}
+.child:nth-child(9) {
+  animation-delay: 800ms;
+}
+.child:nth-child(10) {
+  animation-delay: 900ms;
+}
+
+/* --------------------------------- */
+
+button {
+  background-color: goldenrod;
+  width: 100px;
+  height: 50px;
+  border-radius: 0px 10px 0px;
+  color: black;
+}
+
+button:hover {
+  background-color: #300;
+  transform: scale(1.2);
+  color: wheat;
+  border-radius: 10px 0px 10px 0px;
+}

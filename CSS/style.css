@@ -304,9 +304,6 @@ a:hover {
   border: 2px ridge --fourth-color;
 }
 
-footer {
-  position: fixed;
-}
 @media only screen and (max-width: 414px) {
 }
 
@@ -342,6 +339,11 @@ footer {
 .hover-button:hover {
   background-color: #555555; /* Dark grey background on hover */
   transform: scale(1.1); /* Enlarges the button */
-    box-shadow: 7px 8px 15px 5px #614d24;
+  box-shadow: 7px 8px 15px 5px #614d24;
+}
 
+footer {
+  position: absolute;
+  bottom: 0 ;
+  margin: auto;
 }
