@@ -343,11 +343,35 @@ a:hover {
   box-shadow: 7px 8px 15px 5px #614d24;
 }
 
+button {
+  margin-top: 2rem;
+  color: grey;
+  background-color: var(--primary-color);
+  padding: 1rem;
+  border-radius: 2rem;
+  box-shadow: 7px 8px 15px 5px #614d24;
+}
+
+button:hover {
+  background-color: var(--third-color);
+  color: whitesmoke;
+  font-size: 1.5rem;
+  font-weight: 500;
+  cursor: pointer;
+  box-shadow: 7px 8px 15px 5px #614d24;
+  z-index: 2;
+  border-radius: 100px; /* Initial border-radius to make it round-ish */
+  transition: background-color 0.3s, transform 0.3s, border-radius 0.3s; /* Smooth transitions */
+}
+.imp, .terms {
+  font-size: 1.2rem;
+}
+
 footer {
   position: absolute;
   bottom: 0 ;
   left: 25px;
-  font-size: 2rem;
+  font-size: 1.8rem;
   color: #1E3050;
   padding: 1rem ;
 }
